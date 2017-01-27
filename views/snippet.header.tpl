@@ -1,5 +1,5 @@
 <!-- Navigation -->
-<nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top {{if {page.path_part} != 'zesty_home'}}always-dark{{end-if}}">
+<nav id="mainNav" class="navbar navbar-default navbar-custom {{if {page.path_part} != 'zesty_home'}}always-dark{{end-if}}">
 
 	<div class="container">
 		<!-- Brand and toggle get grouped for better mobile display -->
