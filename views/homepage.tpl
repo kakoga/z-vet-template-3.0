@@ -7,13 +7,17 @@
 		<div class=""  >
 
 			<header  data-vide-bg="mp4: {{ slide.background_video.getMediaURL() }}{{if {slide.background_image} }}, poster: {{slide.background_image.getImage(2500)}}{{ end-if }}" data-vide-options=" loop: true, muted: true, position: 50% 50%">
-				<div class="container">
-					<div class="intro-text">
-						<div class="intro-lead-in">{{slide.title}}</div>
-						<div class="intro-heading">{{slide.second_line}}</div>
-						{{ if {slide.button_text} }}
-						<a href="{{ truepath({slide.links_to}) }}" class="page-scroll btn btn-xl">{{slide.button_text}}</a>
-						{{ end-if }}
+				<div class="cr">
+					<div class="cc">
+						<div class="container">
+							<div class="intro-text">
+								<div class="intro-lead-in">{{slide.title}}</div>
+								<div class="intro-heading">{{slide.second_line}}</div>
+								{{ if {slide.button_text} }}
+								<a href="{{ truepath({slide.links_to}) }}" class="page-scroll btn btn-xl">{{slide.button_text}}</a>
+								{{ end-if }}
+							</div>
+						</div>
 					</div>
 				</div>
 			</header>
@@ -22,13 +26,17 @@
 		<div class=""  >
 
 			<header style="background-image:url('{{slide.background_image.getImage(2500)}}')">
-				<div class="container">
-					<div class="intro-text">
-						<div class="intro-lead-in">{{slide.title}}</div>
-						<div class="intro-heading">{{slide.second_line}}</div>
-						{{ if {slide.button_text} }}
-						<a href="{{ truepath({slide.links_to}) }}" class="page-scroll btn btn-xl">{{slide.button_text}}</a>
-						{{ end-if }}
+				<div class="cr">
+					<div class="cc">
+						<div class="container">
+							<div class="intro-text">
+								<div class="intro-lead-in">{{slide.title}}</div>
+								<div class="intro-heading">{{slide.second_line}}</div>
+								{{ if {slide.button_text} }}
+								<a href="{{ truepath({slide.links_to}) }}" class="page-scroll btn btn-xl">{{slide.button_text}}</a>
+								{{ end-if }}
+							</div>
+						</div>
 					</div>
 				</div>
 			</header>

@@ -1,5 +1,9 @@
 <div id="contact-us">
-	{{ include inner-page-hero }}
+	<div class="cr">
+		<div class="cc">
+			{{ include inner-page-hero }}
+		</div>
+	</div>
 	<div class="container">
 		<div class="body-content" >
 			<div class="row">
