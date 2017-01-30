@@ -232,6 +232,30 @@
                     <links_to><![CDATA[501]]></links_to>
                 <sort_order><![CDATA[3]]></sort_order>
               </item>
+              <item>
+                <image_title><![CDATA[Care Packages]]></image_title>
+                <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/homepage-square-1.jpg]]></image>
+                <image_caption><![CDATA[<p>We offer care packages for each stage of life.</p>]]></image_caption>
+                <button_text><![CDATA[Learn More]]></button_text>
+                <links_to><![CDATA[501]]></links_to>
+                <sort_order><![CDATA[1]]></sort_order>
+              </item>
+              <item>
+                <image_title><![CDATA[Day Care]]></image_title>
+                <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/homepage-square-2.jpeg]]></image>
+                <image_caption></image_caption>
+                    <button_text><![CDATA[Learn More]]></button_text>
+                    <links_to><![CDATA[501]]></links_to>
+                <sort_order><![CDATA[2]]></sort_order>
+              </item>
+              <item>
+                <image_title><![CDATA[Services]]></image_title>
+                <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/homepage-square-3.jpg]]></image>
+                <image_caption></image_caption>
+                    <button_text><![CDATA[Learn More]]></button_text>
+                    <links_to><![CDATA[501]]></links_to>
+                <sort_order><![CDATA[3]]></sort_order>
+              </item>
             </items>
           </dataset>
           <!-- About Section - Gray Cat -->
