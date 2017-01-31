@@ -6,12 +6,14 @@
 				<p>{{ contact_us.first().address_one }}</p>
 				<p>{{ contact_us.first().address_two }}</p>
 				<p>{{ contact_us.first().address_three }}</p>
-				<br>
+				</br>
 				<p>{{ contact_us.first().general_info_one }}</p>
 				<p>{{ contact_us.first().phone_number_one}}</p>
-				<br>
+				</br>
 				<p>{{ contact_us.first().general_info_two }}<p>
 				<p>{{ contact_us.first().phone_number_two }}<p>
+				</br>
+				<p>{{ page.general_info_three }}</p>
 				</div>
 			<div class="col-lg-3 col-md-6 basic">
 				<h4>{{ contact_us.first().hours_title }}</h4>
