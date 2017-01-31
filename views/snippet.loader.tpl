@@ -32,3 +32,6 @@
 </script>
 {{ @popup = 1 }}
 {{ end-if }}
+<script>
+		('.header-spacing').css('margin-top', "-" + ($('#mainNav').outerHeight()) );
+</script>
