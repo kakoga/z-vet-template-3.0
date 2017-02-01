@@ -1,14 +1,14 @@
 .square-wrap {
 	position:relative;
-	overflow:hidden;
-	transition:all ease 250ms;
+	//overflow:hidden;
+	//transition:all ease 250ms;
 	margin-bottom:20px;
 	border-radius:@border-radius-base;
 	img {
 		display:block;
 			position:relative;
 		top:0;
-		transition:all ease 250ms;
+		//transition:all ease 250ms;
 	}
 	h3,h4 {
 			background:fade(@theme-primary,40%);
@@ -25,12 +25,13 @@
 	a.btn {
 		display:block;
 		position:absolute;
-		width:100%;
+		//width:100%;
 		text-align:center;
 		height:50px;
 		line-height:50px;
-		bottom:-50px;
-		transition:all ease 250ms;
+		top:0px;
+		right:0px;
+		//transition:all ease 250ms;
 		border-radius:0;
 		padding:0;
 		background:@brand-primary;
@@ -39,16 +40,15 @@
 	&:hover {
 		img {
 			position:relative;
-			top:-25px;
 		}
 
 		h3,h4 {
 			background:fade(@theme-primary,90%);
 			color:#fff;
-			bottom:50px;
+			//bottom:50px;
 		}
 		a.btn {
-			bottom:0px;
+			top:0px;
 		}
 	}
 }
