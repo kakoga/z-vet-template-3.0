@@ -1,14 +1,21 @@
+#team {
+	padding: 120px 0;
+	.row-padding {
+		padding: 0 0 120px 0;
+	}
+}
+
 .square-wrap {
 	position:relative;
-	overflow:hidden;
-	transition:all ease 250ms;
+	//overflow:hidden;
+	//transition:all ease 250ms;
 	margin-bottom:20px;
 	border-radius:@border-radius-base;
 	img {
 		display:block;
 			position:relative;
 		top:0;
-		transition:all ease 250ms;
+		//transition:all ease 250ms;
 	}
 	h3,h4 {
 			background:fade(@theme-primary,40%);
@@ -22,33 +29,33 @@
 		color:#fff;
 		transition:all ease 250ms;
 	}
-	a.btn {
-		display:block;
+	span.btn {
+		display:none;
 		position:absolute;
-		width:100%;
+		//width:100%;
 		text-align:center;
-		height:50px;
+		//height:50px;
 		line-height:50px;
-		bottom:-50px;
+		top:0px;
+		right:0px;
 		transition:all ease 250ms;
 		border-radius:0;
-		padding:0;
+		padding: 0 10px;
 		background:@brand-primary;
 		border-color:@brand-primary;
 	}
 	&:hover {
 		img {
 			position:relative;
-			top:-25px;
 		}
 
 		h3,h4 {
 			background:fade(@theme-primary,90%);
 			color:#fff;
-			bottom:50px;
+			//bottom:50px;
 		}
-		a.btn {
-			bottom:0px;
+		span.btn {
+			display: block;
 		}
 	}
 }

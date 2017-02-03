@@ -65,23 +65,30 @@
 {{ include script-bg-vid }}
 
 <!-- Homepage Squares -->
+
+
 <section id="team" class="bg-light-gray" style="background-image:url({{ page.background_pattern.getImage() }})">
 	<div class="padding20" style="padding:20px;">
 		<div class="row">
 			{{ each homepage_squares as square sort by square.sort_order }}
 			{{ if {index} % 3 == 1 && {index} != 1 }}
 		</div>
+		<div class="row-padding"></div>
 		<div class="row">
 			{{ end-if }}
-			<div class="col-md-4">
-				<div class="square-wrap">
-					<img src="{{ square.image.getImage(700,500,crop) }}" alt="{{ square.image_title }} image">
-					<h3>{{ square.image_title }}</h3>
-					{{ if {square.button_text} }}
-					<a class="btn btn-lg btn-primary" href="{{ truepath({square.links_to}) }}">{{ square.button_text }}</a>
-					{{ end-if }}
+
+				<div class="col-md-4">
+					<a href="{{ truepath({square.links_to}) }}">
+					<div class="square-wrap">
+						<img src="{{ square.image.getImage(700,500,crop) }}" alt="{{ square.image_title }} image">
+						<h3>{{ square.image_title }}</h3>
+						{{ if {square.button_text} }}
+						<span class="btn btn-lg btn-primary" href="{{ truepath({square.links_to}) }}">{{ square.button_text }}</span>
+						{{ end-if }}
+					</div>
+						</a>
 				</div>
-			</div>
+
 			{{ end-each }}
 		</div>
 	</div>
@@ -91,7 +98,7 @@
 <!-- Timeline Section -->
 {{ if {page.timeline_title} }}
 <section id="about">
-	<div class="container">
+	<div class="">
 		<div class="row">
 			<div class="col-lg-12 text-center">
 				<h2 class="section-heading">{{page.timeline_title}}</h2>
@@ -102,30 +109,76 @@
 			<div class="col-lg-12">
 				<ul class="timeline">
 					{{each home_page_about_timeline as timeline}}
-					{{if {index} % 2 = 0}}
-					<li class="timeline-inverted">
-						{{else}}
-						<li>
-							{{end-if}}
-							<div class="timeline-image">
-								<img class="img-circle img-responsive" src="{{timeline.bubble_image.getImage(400,400,crop)}}" alt="{{timeline.title}} Image">
-							</div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h4>{{timeline.bubble_title}}</h4>
-									<h4 class="subheading">{{timeline.bubble_subtitle}}</h4>
-								</div>
-								<div class="timeline-body">
-									<p class="text-muted">{{timeline.bubble_blurb}}</p>
+
+					<div class="row">
+						(**{{if {index} % 2 = 0}}**)
+						<div class="row">
+							<div class="col-sm-12">
+								<div class="timeline-image" style="background-image: url({{timeline.bubble_image.getImage()}}); height: 50vh;  background-repeat: no-repeat; background-position: 50% 50%; background-size: 100%;">
+									<div class="container">
+										<h2 class="text-muted">{{timeline.bubble_title}}</h2>
+										<h4 class="subheading text-muted">{{timeline.bubble_subtitle}}</h4>
+									</div>
 								</div>
 							</div>
-					</li>
+						</div>
+						<div class="container">
+							<div class="row">
+								<div class="col-sm-12 mobile">
+									<div class="timeline-panel">
+										<div class="timeline-body text-center">
+											<p class="text-muted">{{timeline.bubble_blurb}}</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-12 desktop">
+									<div class="timeline-panel">
+										<div class="timeline-body text-center">
+											<p class="text-muted">{{timeline.bubble_blurb}}</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+
+
+						(**{{else}}
+						<div class="row">
+							<div class="col-sm-12">
+								<div class="timeline-image">
+									<img class=" img-responsive" src="{{timeline.bubble_image.getImage(600,600,crop)}}" alt="{{timeline.title}} Image">
+								</div>
+
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-sm-12">
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h2>{{timeline.bubble_title}}</h2>
+										<h4 class="subheading">{{timeline.bubble_subtitle}}</h4>
+									</div>
+									<div class="timeline-body">
+										<p class="text-muted">{{timeline.bubble_blurb}}</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						{{end-if}}**)
+					</div>
+
 					{{end-each}}
 
-					<li class="timeline-inverted">
-						<div class="timeline-image">
+					<li class="">
+						<div class="text-center">
 							{{ if {page.timeline_button_text} }}
-							<h4><a href="{{ truepath({page.timeline_btn_links_to}) }}" >{{page.timeline_button_text}}</a></h4>
+							<h4><a href="{{ truepath({page.timeline_btn_links_to}) }}" ><button class="btn btn-xl">{{page.timeline_button_text}}</button></a></h4>
 							{{ end-if }}
 						</div>
 					</li>
@@ -137,7 +190,7 @@
 {{ end-if }}
 
 <!-- About Section -->
-{{ each about_section as abtsec sort by abtsec.sort_order}}
+(**{{ each about_section as abtsec sort by abtsec.sort_order}}
 <section class="portfolio bg-light-gray" style="background-image:url('{{ abtsec.about_section_image.getImage(500, 500, crop) }}');background-size:contain;backgound-position:left bottom;background-repeat:no-repeat;">
 	<div class="container">
 
@@ -165,4 +218,4 @@
 		</div>
 	</div>
 </section>
-{{ end-each }}
+{{ end-each }} **)
