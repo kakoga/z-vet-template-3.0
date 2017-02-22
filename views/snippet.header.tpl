@@ -60,9 +60,15 @@
 							$this.addClass('vis');
 						}, 250*i);
 					});
-					$('#tel-appt').hide();
+					//$('#tel-appt').hide();
 					i++;
-					$('#tel-appt').delay(250*i).fadeIn();
+					setTimeout(function(){
+						$('#tel-appt').addClass('vis');
+					}, 250*i);
+					i++;
+					setTimeout(function(){
+						$('.social-links').addClass('vis');
+					}, 250*i);
 				});
 			});
 		</script>
@@ -82,7 +88,14 @@
 						</div>
 						<div id="tel-appt">
 							<h4><a href="{{ clippings.phone }}" >tel: {{ clippings.phone }}</a></h4>
-						<a class="btn btn-primary pull-right" id="request" href="https://dashboard.petdesk.com/WebApptRequest/?referralCode={{ clippings.petdesk_ref_code }}" target="_blank" >Request Appointment</a>
+							<a class="btn btn-primary pull-right" id="request" href="https://dashboard.petdesk.com/WebApptRequest/?referralCode={{ clippings.petdesk_ref_code }}" target="_blank" >Request Appointment</a>
+							<ul class="list-inline social-buttons pull-right text-center">
+								{{each social_links as social}}
+								<li class="social-{{social.font_awesome_icon}}">
+									<a href="{{social.url}}"><i class="fa fa-{{social.font_awesome_icon}}"></i></a>
+								</li>
+								{{end-each}}
+							</ul>
 						</div>
 					</div>
 				</div>

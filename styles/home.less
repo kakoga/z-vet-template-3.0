@@ -1,8 +1,4 @@
 //hamburger menu toggle
-* {
-	margin: 0;
-	padding: 0;
-}
 
 #menu-toggle {
 	width: 60px;
@@ -17,7 +13,8 @@
 	-o-transition: .5s ease-in-out;
 	transition: .5s ease-in-out;
 	cursor: pointer;
-	right: 0;
+	top:20px;
+	right: 20px;
 	z-index: 151;
 
 }
@@ -146,7 +143,17 @@
 		}
 	}
 }
-
+#tel-appt {
+	opacity:0;
+	&.vis {
+		opacity:1;
+	}
+	.list-inline {
+		padding: 0;
+		margin: 10px 0 0 0;
+		display: inline-block;
+	}
+}
 
 #team {
 	padding: 120px 0;
@@ -171,23 +178,25 @@
 		display:block;
 			position:relative;
 		top:0;
-		//transition:all ease 250ms;
 	}
+
 	h3,h4 {
-		background:fade(@theme-primary,60%);
+		text-shadow:0px 0px 4px rgba(50,50,50,0.5);
+		//background:fade(@theme-primary,60%);
 		padding:20px;
 		text-align:center;
 		color:@accent-color;
 		position:absolute;
-		bottom:0;
+		top:0;
 		width:100%;
 		margin:0;
 		color:#fff;
 		height: 100%;
-		padding-top: 30%;
 		transition:all ease 250ms;
 	}
+
 	.caption {
+		text-shadow:0px 0px 4px rgba(50,50,50,0.5);
 		opacity: 0;
 		position: absolute;
 		height: 100%;
@@ -204,25 +213,29 @@
 			margin:0;
 			color:#fff;
 			height: 100%;
-			padding-top: 45%;
-			transition:all ease 250ms
+			padding-top: 35%;
+			transition:all ease 250ms;
+			text-shadow:0px 0px 4px rgba(50,50,50,0.5);
 		}
 	}
+
 	span.btn {
 		display:none;
 		position:absolute;
-		//width:100%;
+		width:100%;
 		text-align:center;
-		//height:50px;
+		height:50px;
 		line-height:50px;
-		top:0px;
-		right:0px;
-		//transition:all ease 250ms;
+		//top:0px;
+		//right:0px;
+		bottom: 0;
+		transition:all ease 250ms;
 		border-radius:0;
 		padding: 0 10px;
-		background:@brand-primary;
+		background: @btn-default-bg;
 		border-color:@brand-primary;
 	}
+
 	&:hover {
 
 		img {
@@ -230,16 +243,20 @@
 		}
 
 		h3,h4 {
-			background:fade(@theme-primary,95%);
+			text-shadow:0px 0px 4px rgba(50,50,50,0.5);
+			background:fade(@theme-primary,50%);
 			color:#fff;
+			padding-top:20%;
 			//bottom:50px;
 		}
+
 		span.btn {
 			display: block;
-			top:0px;
+			bottom:0px;
 		}
 	}
 }
+
 #contact {
 	padding: 50px 0 50px 0;
 	h2 {
