@@ -3,13 +3,12 @@
 
 <div class="slick-slider-container" >
 
-	<div id="img-overlay"></div>
 	<div id="slick-hero">
 		{{ each homepage_slides as slide sort by slide.sort_order }}
 		{{ if {slide.background_video} }}
 		<div class=""  >
 			<header  data-vide-bg="mp4: {{ slide.background_video.getMediaURL() }}{{if {slide.background_image} }}, poster: {{slide.background_image.getImage(2500)}}{{ end-if }}" data-vide-options=" loop: true, muted: true, position: 50% 50%">
-				<div class="cr">
+				<div class="cr bg-overlay">
 					<div class="cc">
 						<div class="container">
 							<div class="intro-text">
@@ -27,7 +26,7 @@
 		{{ else }}
 		<div class=""  >
 			<header style="background-image:url('{{slide.background_image.getImage(2500)}}')">
-				<div class="cr">
+				<div class="cr bg-overlay">
 					<div class="cc">
 						<div class="container">
 							<div class="intro-text">
