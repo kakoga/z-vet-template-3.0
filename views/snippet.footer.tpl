@@ -6,13 +6,13 @@
 				<p>{{ contact_us.first().address_one }}</p>
 				<p>{{ contact_us.first().address_two }}</p>
 				<p>{{ contact_us.first().address_three }}</p>
-				</br>
+				<br>
 				<p>{{ contact_us.first().general_info_one }}</p>
 				<p>{{ contact_us.first().phone_number_one}}</p>
-				</br>
+				<br>
 				<p>{{ contact_us.first().general_info_two }}<p>
 				<p>{{ contact_us.first().phone_number_two }}<p>
-				</br>
+				<br>
 				<p>{{ page.general_info_three }}</p>
 				</div>
 			<div class="col-lg-3 col-md-6 basic">
@@ -29,20 +29,16 @@
 					</div>
 					<div class="row">
 					{{ end-if }}
-					<div class="col-lg-6">
+					<div class="col-lg-6 col-xs-6">
 						<img  class="footer-logo" src="{{ fl.footer_logo.getImage() }}" alt="{{ fl.logo_title }} logo">
 					</div>
 						{{ end-each }}
 				</div>
 			</div>
 		</div>
-	</div>
-</section>
 
-<footer>
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-4 col-md-6">
+	<div class="row">
+			<div class="col-lg-4 col-md-6 basic">
 
 				<span class="copyright">&copy; {{site.date(Y)}} {{clippings.footer_text}}</span>
 			</div>
@@ -63,5 +59,10 @@
 				</ul>
 			</div>
 		</div>
+		</div>
+	(**<footer>
+	<div class="container">
+
 	</div>
-</footer>
+</footer>**)
+</section>

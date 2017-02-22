@@ -1,11 +1,13 @@
 <!-- Header -->
 <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+
 <div class="slick-slider-container" >
-	<div id="slick-hero"  >
+
+	<div id="img-overlay"></div>
+	<div id="slick-hero">
 		{{ each homepage_slides as slide sort by slide.sort_order }}
 		{{ if {slide.background_video} }}
 		<div class=""  >
-
 			<header  data-vide-bg="mp4: {{ slide.background_video.getMediaURL() }}{{if {slide.background_image} }}, poster: {{slide.background_image.getImage(2500)}}{{ end-if }}" data-vide-options=" loop: true, muted: true, position: 50% 50%">
 				<div class="cr">
 					<div class="cc">
@@ -24,7 +26,6 @@
 		</div>
 		{{ else }}
 		<div class=""  >
-
 			<header style="background-image:url('{{slide.background_image.getImage(2500)}}')">
 				<div class="cr">
 					<div class="cc">
@@ -45,6 +46,7 @@
 		{{ end-each }}
 	</div>
 </div>
+
 <script type="text/javascript">
 	$(document).ready(function(){
 		$('#slick-hero').slick({
@@ -76,19 +78,22 @@
 		<div class="row-padding"></div>
 		<div class="row">
 			{{ end-if }}
-
-				<div class="col-md-4">
+			<div class="col-md-4">
+				<div class="square-wrap">
 					<a href="{{ truepath({square.links_to}) }}">
-					<div class="square-wrap">
 						<img src="{{ square.image.getImage(700,500,crop) }}" alt="{{ square.image_title }} image">
 						<h3>{{ square.image_title }}</h3>
 						{{ if {square.button_text} }}
 						<span class="btn btn-lg btn-primary" href="{{ truepath({square.links_to}) }}">{{ square.button_text }}</span>
 						{{ end-if }}
-					</div>
-						</a>
+						{{ if {square.image_caption} }}
+						<div class="caption">
+							{{ square.image_caption }}
+						</div>
+						{{ end-if }}
+					</a>
 				</div>
-
+			</div>
 			{{ end-each }}
 		</div>
 	</div>
@@ -110,14 +115,18 @@
 				<ul class="timeline">
 					{{each home_page_about_timeline as timeline}}
 
-					<div class="row">
+					<div class="">
 						(**{{if {index} % 2 = 0}}**)
 						<div class="row">
 							<div class="col-sm-12">
 								<div class="timeline-image" style="background-image: url({{timeline.bubble_image.getImage()}}); height: 50vh;  background-repeat: no-repeat; background-position: 50% 50%; background-size: 100%;">
 									<div class="container">
-										<h2 class="text-muted">{{timeline.bubble_title}}</h2>
-										<h4 class="subheading text-muted">{{timeline.bubble_subtitle}}</h4>
+										<div class="row">
+											<div class="col-sm-12">
+												<h2 class="text-muted">{{timeline.bubble_title}}</h2>
+												<h4 class="subheading text-muted">{{timeline.bubble_subtitle}}</h4>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -133,7 +142,8 @@
 								</div>
 							</div>
 							<div class="row">
-								<div class="col-sm-12 desktop">
+								<div class="col-sm-3"></div>
+								<div class="col-sm-6 desktop">
 									<div class="timeline-panel">
 										<div class="timeline-body text-center">
 											<p class="text-muted">{{timeline.bubble_blurb}}</p>
@@ -142,10 +152,6 @@
 								</div>
 							</div>
 						</div>
-
-
-
-
 						(**{{else}}
 						<div class="row">
 							<div class="col-sm-12">
@@ -218,4 +224,4 @@
 		</div>
 	</div>
 </section>
-{{ end-each }} **)
+{{ end-each }}**)

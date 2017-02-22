@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
     <plate>
-
         <head>
             <doctype>html5</doctype>
             <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
@@ -27,7 +26,6 @@
             <wysiwyg_advanced name="pop_up_content" name_friendly="Pop-up Content"><![CDATA[]]></wysiwyg_advanced>
         </clippings>
         <ingredients>
-
           <dataset name="social_links" name_friendly="Social Links">
               <fields>
                   <text name="name" name_friendly="Social Media Name" list="1" />
@@ -94,8 +92,8 @@
             </fields>
             <items>
               <item>
-                <logo_title><![CDATA[Zesty Clinic Logo]]></logo_title>
-                <footer_logo><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/zesty_footer_logo.png]]></footer_logo>
+                <logo_title><![CDATA[PetDesk]]></logo_title>
+                <footer_logo><![CDATA[https://20c8f9aa0640fa57fb9f-797f92b87a3f6608f6aa93d5326d7650.ssl.cf2.rackcdn.com/PetDesk-logo.png]]></footer_logo>
                 <sort_order><![CDATA[1]]></sort_order>
               </item>
               <item>
@@ -105,7 +103,6 @@
               </item>
             </items>
           </dataset>
-
           <!-- HOMEPAGE -->
           <templateset name="homepage" name_friendly="Homepage" view="homepage">
               <fields>
@@ -213,13 +210,13 @@
                 <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/homepage-square-1.jpg]]></image>
                 <image_caption><![CDATA[<p>We offer care packages for each stage of life.</p>]]></image_caption>
                 <button_text><![CDATA[Learn More]]></button_text>
-                <links_to><![CDATA[501]]></links_to>
+                <links_to><![CDATA[503]]></links_to>
                 <sort_order><![CDATA[1]]></sort_order>
               </item>
               <item>
                 <image_title><![CDATA[Day Care]]></image_title>
                 <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/homepage-square-2.jpeg]]></image>
-                <image_caption></image_caption>
+                <image_caption><![CDATA[<p>We offer day care activities and training classes.</p>]]></image_caption>
                     <button_text><![CDATA[Learn More]]></button_text>
                     <links_to><![CDATA[501]]></links_to>
                 <sort_order><![CDATA[2]]></sort_order>
@@ -227,9 +224,9 @@
               <item>
                 <image_title><![CDATA[Services]]></image_title>
                 <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/homepage-square-3.jpg]]></image>
-                <image_caption></image_caption>
+                <image_caption><![CDATA[<p>Our services not only care for your pet, but pamper them too.</p>]]></image_caption>
                     <button_text><![CDATA[Learn More]]></button_text>
-                    <links_to><![CDATA[501]]></links_to>
+                    <links_to><![CDATA[503]]></links_to>
                 <sort_order><![CDATA[3]]></sort_order>
               </item>
               <item>
@@ -237,24 +234,24 @@
                 <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/homepage-square-1.jpg]]></image>
                 <image_caption><![CDATA[<p>We offer care packages for each stage of life.</p>]]></image_caption>
                 <button_text><![CDATA[Learn More]]></button_text>
-                <links_to><![CDATA[501]]></links_to>
-                <sort_order><![CDATA[1]]></sort_order>
+                <links_to><![CDATA[503]]></links_to>
+                <sort_order><![CDATA[4]]></sort_order>
               </item>
               <item>
                 <image_title><![CDATA[Day Care]]></image_title>
                 <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/homepage-square-2.jpeg]]></image>
-                <image_caption></image_caption>
+                <image_caption><![CDATA[<p>We offer day care activities and training classes.</p>]]></image_caption>
                     <button_text><![CDATA[Learn More]]></button_text>
                     <links_to><![CDATA[501]]></links_to>
-                <sort_order><![CDATA[2]]></sort_order>
+                <sort_order><![CDATA[5]]></sort_order>
               </item>
               <item>
                 <image_title><![CDATA[Services]]></image_title>
                 <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/homepage-square-3.jpg]]></image>
-                <image_caption></image_caption>
+                <image_caption><![CDATA[<p>Our services not only care for your pet, but pamper them too.</p>]]></image_caption>
                     <button_text><![CDATA[Learn More]]></button_text>
-                    <links_to><![CDATA[501]]></links_to>
-                <sort_order><![CDATA[3]]></sort_order>
+                    <links_to><![CDATA[503]]></links_to>
+                <sort_order><![CDATA[6]]></sort_order>
               </item>
             </items>
           </dataset>

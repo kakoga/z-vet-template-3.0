@@ -17,17 +17,6 @@
 						{{ page.body_text }}
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<ul class="list-inline social-buttons text-center">
-							{{each social_links as social}}
-							<li class="social-{{social.font_awesome_icon}}">
-								<a href="{{social.url}}"><i class="fa fa-{{social.font_awesome_icon}}"></i></a>
-							</li>
-							{{end-each}}
-						</ul>
-					</div>
-				</div>
 			</div>
 		</div>
 	</div>

@@ -1,16 +1,21 @@
 #img-overlay {
 	position: absolute;
-	background-color: rgba(0, 0, 0, 0.6);
+	background-color: @theme-gray-color;
+	opacity: 0.5;
 	top: 0;
 	left: 0;
 	height: 100%;
 	width: 100%;
+	z-index: 10;
+}
+.slick-slider-container {
+	position: relative;
 }
 .hero-container {
 	position: relative;
-	background-size:100%;
+	background-size:cover;
 	background-attachment:fixed;
-	background-position:center top;
+	background-position:50% 50%;
 	padding:22vh 0;
 	background-color:@body-bg;
 	background-repeat:no-repeat;
@@ -46,6 +51,7 @@
 	//	border:none;
 	//	border-top:5px solid @theme-primary;
 	//}
+
 
 }
 

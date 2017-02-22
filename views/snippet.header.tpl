@@ -1,70 +1,108 @@
 <!-- Navigation -->
-<nav id="mainNav" class="navbar navbar-default navbar-custom {{if {page.path_part} != 'zesty_home'}}always-dark{{end-if}}">
+<nav id="mainNav" class="navbar navbar-default navbar-custom">
 	<!-- brand logo goes here -->
 	<div class="container no-padding">
-		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			<div class="mobile">
-				{{bootstrap.navigation(nav navbar-nav,1)}}
-			</div>
-		</div>
-		<div class="desktop">
-			<div class="row">
-				<div class="col-sm-3">
-					<div class="row">
-						<div class="col-sm-12">
-							{{if {clippings.logo} }}
-							<a class="navbar-brand brand-image page-scroll pull-left" href="/">
-								<img src="{{clippings.logo.getImage()}}" style="height: {{ clippings.logo_height }}px;"alt="{{clippings.site_name}} logo"/>
-								{{ if {clippings.below_logo_text} }}
-								<span class="below-logo hidden-sm-down" >{{ clippings.below_logo_text }}</span>
-								{{ end-if }}
-							</a>
-							{{ else }}
-							<a class="navbar-brand page-scroll site-name  pull-left" href="/">{{clippings.site_name}}</a>
-							{{end-if}}
-						</div>
+		<div class="row">
+			<div class="col-xs-12 col-sm-3 col-md-4">
+				<div class="row">
+					<div class="col-sm-12">
+						{{if {clippings.logo} }}
+						<a class="navbar-brand brand-image page-scroll pull-left" href="/">
+							<img src="{{clippings.logo.getImage()}}" style="height: {{ clippings.logo_height }}px;"alt="{{clippings.site_name}} logo"/>
+							{{ if {clippings.below_logo_text} }}
+							<span class="below-logo hidden-sm-down" >{{ clippings.below_logo_text }}</span>
+							{{ end-if }}
+						</a>
+						{{ else }}
+						<a class="navbar-brand page-scroll site-name" href="/">{{clippings.site_name}}</a>
+						{{end-if}}
 					</div>
 				</div>
-				<div class="col-sm-9">
-					<div class="row">
-						<div class="col-sm-12">
-							<!-- Appt request button and phone go here-->
-							<div class="pull-right">
-								<div class="number" >
-									<h3><i class="fa fa-phone-square" aria-hidden="true"></i><a href="{{ clippings.phone }}" > {{ clippings.phone }}</a></h3>
-								</div>
-								<i class="fa fa-calendar fa-lg" aria-hidden="true"></i>
-<a class="btn btn-primary" id="request" href="https://dashboard.petdesk.com/WebApptRequest/?referralCode={{ clippings.petdesk_ref_code }}" target="_blank" >Request Appointment</a>
-
+			</div>
+			<div class="col-xs-12 col-sm-9 col-md-8">
+				<div class="row">
+					<div class="col-sm-12">
+						<!-- Appt request button and phone go here-->
+						<div class="appt-phone-align">
+							<div class="number" >
+								<h3><i class="fa fa-phone-square" aria-hidden="true"></i><a href="{{ clippings.phone }}" > {{ clippings.phone }}</a></h3>
 							</div>
+							<i class="fa fa-calendar fa-lg" aria-hidden="true"></i>
+							<a class="btn btn-primary" id="request" href="https://dashboard.petdesk.com/WebApptRequest/?referralCode={{ clippings.petdesk_ref_code }}" target="_blank" >Request Appointment</a>
+
 						</div>
-					</div>
-					<div class="row">
-						<div class="col-sm-12">
-							<!-- nav bar goes here -->
-							{{bootstrap.navigation(nav navbar-nav,2)}}
+						<div id="menu-toggle">
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
 
-	<div class="container">
-		<!-- Brand and toggle get grouped for better mobile display -->
-		<div class="row" >
-			<div class="col-sm-6" >
-				<div class="navbar-header page-scroll">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-						<span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-					</button>
+
+		<script>
+			$(document).ready(function(){
+				$('#menu-toggle').click(function(){
+					$(this).toggleClass('open');
+					$('.desktop-slide-nav').toggleClass('open');
+					var i = 0
+					console.log(i);
+					$('.desktop-slide-nav ul#nav li').each(function(){
+						var $this = $(this);
+						i++;
+						console.log(i);
+						setTimeout(function(){
+							$this.addClass('vis');
+						}, 250*i);
+					});
+					$('#tel-appt').hide();
+					i++;
+					$('#tel-appt').delay(250*i).fadeIn();
+				});
+			});
+		</script>
+		<div class="nav-bar">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+			</button>
+			<div class="container no-padding" >
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<div class="mobile">
+						{{bootstrap.navigation(nav navbar-nav,1)}}
+					</div>
+					<div class="desktop desktop-slide-nav nav-slider-container">
+						<div class="">
+							{{bootstrap.navigation(nav navbar-nav,1)}}
+
+						</div>
+						<div id="tel-appt">
+							<h4><a href="{{ clippings.phone }}" >tel: {{ clippings.phone }}</a></h4>
+						<a class="btn btn-primary pull-right" id="request" href="https://dashboard.petdesk.com/WebApptRequest/?referralCode={{ clippings.petdesk_ref_code }}" target="_blank" >Request Appointment</a>
+						</div>
+					</div>
 				</div>
 			</div>
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<!-- /.navbar-collapse -->
 		</div>
 	</div>
 </nav>
 <script>
+	(**$('.menu-toggle').click(function(){
+		$('.desktop-slide-in-nav').addClass('open');
+	});
+	$('.slide-in-nav .close').click(function(){
+			$('.slide-in-nav').removeClass('open');
+		});
+		$(document).click(function(event) {
+			if(!$(event.target).closest('.slide-in-nav, .menu-toggle').length &&
+			   !$(event.target).is('.slide-in-nav, #nav-toggle')) {
+				$('.slide-in-nav.open').removeClass('open');
+			}
+		})**)
+
 	//$('.dropdown-toggle').attr('data-toggle','dropdown');
 </script>
