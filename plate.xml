@@ -256,7 +256,7 @@
             </items>
           </dataset>
           <!-- About Section - Gray Cat -->
-          <!-- <dataset name="about_section" name_friendly="About Section" parent_item="zesty_home">
+          <dataset name="about_section" name_friendly="About Section" parent_item="zesty_home">
             <fields>
               <text name="about_section_title" name_friendly="About Section Title" list="1"/>
               <images name="about_section_image" name_friendly="About Section Image" limit="1" list="1" />
@@ -275,7 +275,7 @@
                 <sort_order><![CDATA[1]]></sort_order>
               </item>
             </items>
-          </dataset> -->
+          </dataset>
 
           <!-- GENERIC PAGE: PRIVACY POLICY, ToS, THANK YOU -->
           <templateset name="generic-page" name_friendly="Generic Page" view="generic_page">

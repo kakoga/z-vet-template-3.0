@@ -195,7 +195,7 @@
 {{ end-if }}
 
 <!-- About Section -->
-(**{{ each about_section as abtsec sort by abtsec.sort_order}}
+{{ each about_section as abtsec sort by abtsec.sort_order}}
 <section class="portfolio bg-light-gray" style="background-image:url('{{ abtsec.about_section_image.getImage(500, 500, crop) }}');background-size:contain;backgound-position:left bottom;background-repeat:no-repeat;">
 	<div class="container">
 
@@ -223,4 +223,4 @@
 		</div>
 	</div>
 </section>
-{{ end-each }}**)
+{{ end-each }}
