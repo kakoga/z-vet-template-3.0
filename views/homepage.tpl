@@ -75,13 +75,11 @@
 		</div>
 		<div class="row">
 			{{ end-if }}
-			<div class="col-lg-6 pull-left home-section-two-img">
-				&nbsp;
-			</div>
-			<div class="col-lg-6">
-				<div class="opaque-bg">
+			<div class="col-md-2"></div>
+			<div class="col-md-8 text-center">
+				<div class="">
 					<div class="row">
-						<h2 class="section-heading pull-left home-section-two">{{abtsec.about_section_title}}</h2>
+						<h2 class="section-heading home-section-two">{{abtsec.about_section_title}}</h2>
 					</div>
 					<div class="row">
 						<p class="pull-left home-section-two">{{ abtsec.about_section_copy }}</p>
