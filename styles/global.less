@@ -35,7 +35,7 @@ body {
 	}
 
 	@media (max-width: @sm) {
-		padding:8vh 0;
+		padding:26vh 0;
 		background-size:cover;
 		background-attachment:inherit;
 		hr {display:none;}
@@ -353,5 +353,15 @@ a:hover {text-decoration:none;}
 		right:100%;
 		top:-20px;
 		color:@gray;
+	}
+}
+
+.sectionlinks-container {
+	ul {
+		li {
+			@media(max-width: @sm) {
+				float: none;
+			}
+		}
 	}
 }

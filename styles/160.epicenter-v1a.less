@@ -171,6 +171,7 @@ img {
 		@media (max-width: @sm) {
 			float: none;
 			text-align: center;
+			margin-right: 0;
 		}
 	}
 	navbar-brand.site-name {
@@ -408,7 +409,7 @@ header {
 		@media(max-width: @sm) {
 				.btn.btn-xl {
 					font-size: 14px;
-					padding: 10px 20px;
+					padding: 8px 17px;
 				}
 			}
 		.intro-lead-in {
@@ -417,6 +418,9 @@ header {
 			font-size: 22px;
 			line-height: 22px;
 			margin-bottom: 25px;
+			@media(max-width: @sm) {
+				margin-top: 15px;
+			}
 		}
 		.intro-heading {
 			.heading-font;
@@ -425,8 +429,8 @@ header {
 			line-height: 30px;
 			margin-bottom: 25px;
 			@media(max-width: @sm) {
-				font-size: 29px;
-				line-height: 42px;
+				font-size: 25px;
+				line-height: 37px;
 			}
 		}
 	}
@@ -477,6 +481,9 @@ section, .recipe-wrap {
 		font-style: italic;
 		font-weight: 400;
 		margin-bottom: 75px;
+	}
+	@media(max-width: @sm) {
+		margin-bottom: 60px;
 	}
 }
 
@@ -602,26 +609,41 @@ section.portfolio {
 }
 
 #about {
-    max-width: 100%;
-    overflow: hidden;
+	max-width: 100%;
+	overflow: hidden;
+	@media(max-width: @sm) {
+		padding-top: 0;
+		margin-bottom: 30px;
+	}
 	h2 {
 		/* offset-x | offset-y | blur-radius | color */
-text-shadow:1px 1px 2px rgba(0,0,0,0.5)
+		text-shadow:1px 1px 1px rgba(0,0,0,0.5)
+
+	}
+	h2 {
+		@media (max-width: @sm) {
+				margin: 36px 0 0 0;
+			}
 	}
 	h4 {
 		/* offset-x | offset-y | blur-radius | color */
-text-shadow:1px 1px 2px rgba(0,0,0,0.5)
+		text-shadow:1px 1px 1px rgba(0,0,0,0.5)
 	}
 	.timeline-image {
 		position: relative;
 	}
 	.timeline-body {
 		margin: 15px 0 25px 0;
+		@media(max-width: @sm) {
+			margin: 0 0 25px 0;
+		}
 		.text-muted {
 			padding-bottom: 85px;
+			@media(max-width: @sm) {
+				padding-bottom: 25px;
+			}
 		}
 	}
-
 }
 
 // Team Section
@@ -704,6 +726,24 @@ section#contact {
 	}
 	.text-danger {
 		color: @theme-danger;
+	}
+	.copyright {
+		@media(max-width: @sm) {
+			display: block;
+			text-align: center;
+		}
+	}
+	.social-buttons {
+		@media(max-width: @sm) {
+			display: block;
+			text-align: center;
+		}
+	}
+	.quicklinks {
+		@media(max-width: @sm) {
+			display: block;
+			text-align: center;
+		}
 	}
 }
 

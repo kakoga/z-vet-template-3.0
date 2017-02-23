@@ -31,7 +31,7 @@
 							<a class="btn btn-primary" id="request" href="https://dashboard.petdesk.com/WebApptRequest/?referralCode={{ clippings.petdesk_ref_code }}" target="_blank" >Request Appointment</a>
 
 						</div>
-						<div id="menu-toggle">
+						<div id="menu-toggle" class="">
 							<span></span>
 							<span></span>
 							<span></span>
@@ -72,16 +72,19 @@
 				});
 			});
 		</script>
-		<div class="nav-bar">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		<div class="nav-bar">(**
+			<button type="button" class="navbar-toggle" data-toggle="" data-target="#bs-example-navbar-collapse-1">
 				<span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
 			</button>
+			**)
 			<div class="container no-padding" >
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<div class=" " id="bs-example-navbar-collapse-1">
+					(**
 					<div class="mobile">
 						{{bootstrap.navigation(nav navbar-nav,1)}}
 					</div>
-					<div class="desktop desktop-slide-nav nav-slider-container">
+					**)
+					<div class=" desktop-slide-nav nav-slider-container">
 						<div class="">
 							{{bootstrap.navigation(nav navbar-nav,1)}}
 
