@@ -221,25 +221,25 @@
                 <sort_order><![CDATA[3]]></sort_order>
               </item>
               <item>
-                <image_title><![CDATA[Care Packages]]></image_title>
+                <image_title><![CDATA[Teamwork]]></image_title>
                 <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/homepage-square-1.jpg]]></image>
-                <image_caption><![CDATA[<p>We offer care packages for each stage of life.</p>]]></image_caption>
+                <image_caption><![CDATA[<p>Our team works together to bring you the best quality of care.</p>]]></image_caption>
                 <button_text><![CDATA[Learn More]]></button_text>
-                <links_to><![CDATA[503]]></links_to>
+                <links_to><![CDATA[587]]></links_to>
                 <sort_order><![CDATA[4]]></sort_order>
               </item>
               <item>
-                <image_title><![CDATA[Day Care]]></image_title>
+                <image_title><![CDATA[Promotions]]></image_title>
                 <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/homepage-square-2.jpeg]]></image>
-                <image_caption><![CDATA[<p>We offer day care activities and training classes.</p>]]></image_caption>
+                <image_caption><![CDATA[<p>Check out our monthly promotions!</p>]]></image_caption>
                     <button_text><![CDATA[Learn More]]></button_text>
-                    <links_to><![CDATA[501]]></links_to>
+                    <links_to><![CDATA[507]]></links_to>
                 <sort_order><![CDATA[5]]></sort_order>
               </item>
               <item>
-                <image_title><![CDATA[Services]]></image_title>
+                <image_title><![CDATA[Resources]]></image_title>
                 <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/homepage-square-3.jpg]]></image>
-                <image_caption><![CDATA[<p>Our services not only care for your pet, but pamper them too.</p>]]></image_caption>
+                <image_caption><![CDATA[<p>Need more help? Check out our resources.</p>]]></image_caption>
                     <button_text><![CDATA[Learn More]]></button_text>
                     <links_to><![CDATA[503]]></links_to>
                 <sort_order><![CDATA[6]]></sort_order>

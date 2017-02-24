@@ -4,6 +4,7 @@
 			{{ include inner-page-hero }}
 		</div>
 	</div>
+	{{ include sectionlinks }}
 	<div class="container">
 		<div class="body-content" >
 			<div class="row">

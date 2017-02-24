@@ -105,7 +105,7 @@
 	background-color: rgba(0,0,0,0.4);
 	padding: 100px 16px 50px 0;
 	width: 300px;
-	right: -250%;
+	right: -900px;
 	top:0;
 	bottom:0;
 	position: fixed;
@@ -119,13 +119,13 @@
 	ul#nav {
 		li {
 			position:relative;
-			left:25vw;
+			right:-350px;
 			@media (max-width: @sm) {
-				left: 45vw;
+				right: -350px;
 			}
 			transition:all ease 250ms;
 			&.vis {
-				left:0;
+				right:0;
 			}
 		}
 	}
@@ -165,7 +165,7 @@
 		margin-bottom: 30px;
 	}
 	.row-padding {
-		padding: 0 0 120px 0;
+		padding: 0 0 67px 0;
 		@media (max-width: @sm) {
 			padding: 0 0 0 0;
 		}
