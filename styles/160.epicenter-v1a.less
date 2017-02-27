@@ -626,13 +626,24 @@ section.portfolio {
 #about {
 	max-width: 100%;
 	overflow: hidden;
+	padding-bottom: 0;
+	background-color: @gray-lightest;
+
 	@media(max-width: @sm) {
 		padding-top: 0;
-		margin-bottom: 30px;
+		margin-bottom: 0px;
+
+	}
+	.timeline-text {
+		margin-top: 50%;
+		@media (max-width: @sm) {
+			margin-top: 25%;
+			margin-bottom: 0;
+		}
 	}
 	h2 {
 		/* offset-x | offset-y | blur-radius | color */
-		text-shadow:1px 1px 1px rgba(0,0,0,0.5)
+		text-shadow:1px 1px 1px rgba(0,0,0,0.5);
 
 	}
 	h2 {
@@ -640,17 +651,34 @@ section.portfolio {
 				margin: 36px 0 0 0;
 			}
 	}
+	h3 {
+		@media (max-width: @sm) {
+			margin-bottom: 0px;
+		}
+	}
 	h4 {
 		/* offset-x | offset-y | blur-radius | color */
-		text-shadow:1px 1px 1px rgba(0,0,0,0.5)
+		text-shadow:1px 1px 1px rgba(0,0,0,0.5);
 	}
 	.timeline-image {
 		position: relative;
+		background-attachment: fixed;
+		background-position: right;
+		background-size: auto 50vh;
+		background-repeat: no-repeat;
+		height: 100vh;
+		background-color: @gray-lightest;
+	}
+	.timeline-panel {
+		@media (max-width: @sm ) {
+			margin-top: -125px;
+		}
 	}
 	.timeline-body {
 		margin: 15px 0 25px 0;
 		@media(max-width: @sm) {
 			margin: 0 0 25px 0;
+			text-shadow:1px 1px 1px rgba(0,0,0,0.5);
 		}
 		.text-muted {
 			padding-bottom: 85px;
@@ -658,6 +686,12 @@ section.portfolio {
 				padding-bottom: 25px;
 			}
 		}
+	}
+	ul {
+		@media (max-width: @sm) {
+			margin-bottom: 0px;
+		}
+
 	}
 }
 

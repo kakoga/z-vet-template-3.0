@@ -133,8 +133,9 @@
 {{ if {page.timeline_title} }}
 <section id="about">
 	<div class="">
+		(** timeline header **)
 		<div class="row">
-			<div class="col-lg-12 text-center">
+			<div class="col-lg-4 text-center">
 				<h2 class="section-heading">{{page.timeline_title}}</h2>
 				<h3 class="section-subheading text-muted">{{page.timeline_subtitle}}</h3>
 			</div>
@@ -148,12 +149,21 @@
 						(**{{if {index} % 2 = 0}}**)
 						<div class="row">
 							<div class="col-sm-12">
-								<div class="timeline-image" style="background-image: url({{timeline.bubble_image.getImage()}}); height: 50vh;  background-repeat: no-repeat; background-position: 50% 50%; background-size: 100%;">
+								(**timeline image **)
+								<div class="timeline-image" style="background-image: url({{timeline.bubble_image.getImage()}});">
 									<div class="container">
 										<div class="row">
-											<div class="col-sm-12">
-												<h2 class="text-muted">{{timeline.bubble_title}}</h2>
-												<h4 class="subheading text-muted">{{timeline.bubble_subtitle}}</h4>
+											<div class="col-sm-5">
+												<div class="timeline-text opaque-bg">
+													<h2 class="text-muted">{{timeline.bubble_title}}</h2>
+													<h4 class="subheading text-muted">{{timeline.bubble_subtitle}}</h4>
+													(** insert body text here **)
+													<div class="timeline-panel desktop">
+														<div class="timeline-body text-center">
+															<p class="text-muted">{{timeline.bubble_blurb}}</p>
+														</div>
+													</div>
+												</div>
 											</div>
 										</div>
 									</div>
@@ -162,8 +172,8 @@
 						</div>
 						<div class="container">
 							<div class="row">
-								<div class="col-sm-12 mobile">
-									<div class="timeline-panel">
+								<div class="col-sm-5 mobile">
+									<div class="timeline-panel opaque-bg">
 										<div class="timeline-body text-center">
 											<p class="text-muted">{{timeline.bubble_blurb}}</p>
 										</div>
@@ -171,13 +181,9 @@
 								</div>
 							</div>
 							<div class="row">
-								<div class="col-sm-3"></div>
+
 								<div class="col-sm-6 desktop">
-									<div class="timeline-panel">
-										<div class="timeline-body text-center">
-											<p class="text-muted">{{timeline.bubble_blurb}}</p>
-										</div>
-									</div>
+
 								</div>
 							</div>
 						</div>
@@ -211,11 +217,11 @@
 					{{end-each}}
 
 					<li class="">
-						<div class="text-center">
+						(**<div class="text-center">
 							{{ if {page.timeline_button_text} }}
 							<h4><a href="{{ truepath({page.timeline_btn_links_to}) }}" ><button class="btn btn-xl">{{page.timeline_button_text}}</button></a></h4>
 							{{ end-if }}
-						</div>
+						</div> **)
 					</li>
 				</ul>
 			</div>
@@ -223,3 +229,6 @@
 	</div>
 </section>
 {{ end-if }}
+<script>
+	$('section#about')
+</script>
