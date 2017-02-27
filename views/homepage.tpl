@@ -150,7 +150,7 @@
 						<div class="row">
 							<div class="col-sm-12">
 								(**timeline image **)
-								<div class="timeline-image" style="background-image: url({{timeline.bubble_image.getImage()}});">
+								<div class="timeline-image" style="background-image: url({{timeline.bubble_image.getImage(555,308,crop)}});">
 									<div class="container">
 										<div class="row">
 											<div class="col-sm-5">
