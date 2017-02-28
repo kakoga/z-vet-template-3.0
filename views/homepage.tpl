@@ -135,7 +135,7 @@
 	<div class="">
 		(** timeline header **)
 		<div class="row">
-			<div class="col-lg-4 text-center">
+			<div class="col-lg-12 text-center">
 				<h2 class="section-heading">{{page.timeline_title}}</h2>
 				<h3 class="section-subheading text-muted">{{page.timeline_subtitle}}</h3>
 			</div>
@@ -229,6 +229,3 @@
 	</div>
 </section>
 {{ end-if }}
-<script>
-	$('section#about')
-</script>

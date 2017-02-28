@@ -1,4 +1,4 @@
-<div id="about">
+<div id="about-us">
 	<div class="cr">
 		<div class="cc">
 			{{ include inner-page-hero }}
