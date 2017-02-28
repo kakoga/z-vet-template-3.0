@@ -198,7 +198,7 @@
             <items>
               <item>
                 <image_title><![CDATA[Care Packages]]></image_title>
-                <image><![CDATA[https://20c8f9aa0640fa57fb9f-797f92b87a3f6608f6aa93d5326d7650.ssl.cf2.rackcdn.com/homepage-squares-01.jpeg]]></image>
+                <image><![CDATA[https://20c8f9aa0640fa57fb9f-797f92b87a3f6608f6aa93d5326d7650.ssl.cf2.rackcdn.com/homepage-squares-01-crop-03.jpg]]></image>
                 <image_caption><![CDATA[<p>We offer care packages for each stage of life.</p>]]></image_caption>
                 <button_text><![CDATA[Learn More]]></button_text>
                 <links_to><![CDATA[503]]></links_to>
@@ -206,7 +206,7 @@
               </item>
               <item>
                 <image_title><![CDATA[Day Care]]></image_title>
-                <image><![CDATA[https://20c8f9aa0640fa57fb9f-797f92b87a3f6608f6aa93d5326d7650.ssl.cf2.rackcdn.com/homepage-squares-02.jpeg]]></image>
+                <image><![CDATA[https://20c8f9aa0640fa57fb9f-797f92b87a3f6608f6aa93d5326d7650.ssl.cf2.rackcdn.com/homepage-squares-02-crop.jpg]]></image>
                 <image_caption><![CDATA[<p>We offer day care activities and training classes.</p>]]></image_caption>
                     <button_text><![CDATA[Learn More]]></button_text>
                     <links_to><![CDATA[501]]></links_to>
@@ -214,7 +214,7 @@
               </item>
               <item>
                 <image_title><![CDATA[Services]]></image_title>
-                <image><![CDATA[https://20c8f9aa0640fa57fb9f-797f92b87a3f6608f6aa93d5326d7650.ssl.cf2.rackcdn.com/homepage-squares-03.jpeg]]></image>
+                <image><![CDATA[https://20c8f9aa0640fa57fb9f-797f92b87a3f6608f6aa93d5326d7650.ssl.cf2.rackcdn.com/homepage-squares-03-crop-03.jpg]]></image>
                 <image_caption><![CDATA[<p>Our services not only care for your pet, but pamper them too.</p>]]></image_caption>
                     <button_text><![CDATA[Learn More]]></button_text>
                     <links_to><![CDATA[503]]></links_to>
@@ -222,7 +222,7 @@
               </item>
               <item>
                 <image_title><![CDATA[Teamwork]]></image_title>
-                <image><![CDATA[https://20c8f9aa0640fa57fb9f-797f92b87a3f6608f6aa93d5326d7650.ssl.cf2.rackcdn.com/homepage-squares-04.jpeg]]></image>
+                <image><![CDATA[https://20c8f9aa0640fa57fb9f-797f92b87a3f6608f6aa93d5326d7650.ssl.cf2.rackcdn.com/homepage-squares-04-crop.jpg]]></image>
                 <image_caption><![CDATA[<p>Our team works together to bring you the best quality of care.</p>]]></image_caption>
                 <button_text><![CDATA[Learn More]]></button_text>
                 <links_to><![CDATA[587]]></links_to>
@@ -230,7 +230,7 @@
               </item>
               <item>
                 <image_title><![CDATA[Promotions]]></image_title>
-                <image><![CDATA[https://20c8f9aa0640fa57fb9f-797f92b87a3f6608f6aa93d5326d7650.ssl.cf2.rackcdn.com/homepage-squares-05.jpeg]]></image>
+                <image><![CDATA[https://20c8f9aa0640fa57fb9f-797f92b87a3f6608f6aa93d5326d7650.ssl.cf2.rackcdn.com/homepage-squares-05-crop.jpg]]></image>
                 <image_caption><![CDATA[<p>Check out our monthly promotions!</p>]]></image_caption>
                     <button_text><![CDATA[Learn More]]></button_text>
                     <links_to><![CDATA[507]]></links_to>
