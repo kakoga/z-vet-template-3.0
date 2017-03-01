@@ -688,7 +688,7 @@
               <items>
                   <item link_title="Services" path_part="services">
                       <page_title><![CDATA[Our Services]]></page_title>
-                      <main_image><![CDATA[https://20c8f9aa0640fa57fb9f-797f92b87a3f6608f6aa93d5326d7650.ssl.cf2.rackcdn.com/services-hero.jpeg]]></main_image>
+                      <main_image><![CDATA[https://20c8f9aa0640fa57fb9f-797f92b87a3f6608f6aa93d5326d7650.ssl.cf2.rackcdn.com/about-us-meet-the-team.jpeg]]></main_image>
                       <body_text><![CDATA[<p>Pet Care Veterinary Hospital offers full-service veterinary care, from routine physical examinations and vaccinations to emergency and critical care. In addition, we offer unparalleled surgical, dental, digital X-ray, endoscopic, and ultrasound evaluation services. We place special emphasis on preventive medicine and individual wellness programs, such as senior care, healthy weight, and lifestyle.</p>
                       <p>We believe that it is our job to not only treat your pets when they are ill, but to educate you on how to keep your best friends happy and healthy. Our vets have more than 80 years of combined veterinary experience. They have provided treatment for thousands of pets for a variety of problems and are constantly updating their skills through continuing education classes to learn about the latest innovations and medical protocols.</p>]]></body_text>
                   </item>
@@ -911,7 +911,7 @@
               <items>
                   <item link_title="Our Photos" path_part="our-photos" parent="about-us">
                       <page_title><![CDATA[Our Photos]]></page_title>
-                      <main_image><![CDATA[https://20c8f9aa0640fa57fb9f-797f92b87a3f6608f6aa93d5326d7650.ssl.cf2.rackcdn.com/about-us-office-tour.jpeg]]></main_image>
+                      <main_image><![CDATA[https://20c8f9aa0640fa57fb9f-797f92b87a3f6608f6aa93d5326d7650.ssl.cf2.rackcdn.com/parrots-02.jpeg]]></main_image>
                       <body_text>
                         <![CDATA[<h4>Meet our pets, clients, and patients!</h4>]]>
                       </body_text>
