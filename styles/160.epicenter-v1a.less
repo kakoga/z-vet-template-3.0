@@ -173,6 +173,9 @@ img {
 			text-align: center;
 			margin-right: 0;
 		}
+		.fa {
+			color: darken(@gray-lighter, 20%);
+		}
 	}
 	navbar-brand.site-name {
 		float: left;
@@ -183,7 +186,11 @@ img {
 		}
 	}
 	#request {
+		background: darken(@gray-lighter, 25%);
 		margin: 0;
+		&:hover {
+			background: darken(@gray-lighter, 10%);
+		}
 		@media (max-width: @sm) {
 			position:fixed;
 			bottom:0;
@@ -194,6 +201,7 @@ img {
 			font-size:20px;
 			transition:all ease 250ms;
 		}
+
 	}
 	.below-logo {
 		@media (max-width: @sm) {
@@ -205,7 +213,7 @@ img {
 		display: inline-block;
 		margin-left: 5px;
 		h6 {
-			color: @navbar-default-link-color;
+			color: darken(@gray-lighter, 25%);
 			margin:4px 0;
 
 			@media (max-width: 768px) {
@@ -219,7 +227,7 @@ img {
 				font-size: 18.6px;
 			}
 			a {
-				color:@brand-primary;
+				color:darken(@gray-lighter, 25%);
 			}
 		}
 	}

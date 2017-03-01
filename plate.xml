@@ -306,13 +306,13 @@
               <items>
                   <item link_title="Contact Us" path_part="contact-us" parent_item="contact-us">
                       <page_title><![CDATA[Contact Us]]></page_title>
-                      <main_image><![CDATA[https://20c8f9aa0640fa57fb9f-797f92b87a3f6608f6aa93d5326d7650.ssl.cf2.rackcdn.com/contact-us.jpg]]></main_image>
+                      <main_image><![CDATA[https://20c8f9aa0640fa57fb9f-797f92b87a3f6608f6aa93d5326d7650.ssl.cf2.rackcdn.com/phone.jpeg]]></main_image>
                       <address_one><![CDATA[Zesty Pet Clinic]]></address_one>
                       <address_two><![CDATA[1045 Sixth Avenue]]></address_two>
                       <address_three><![CDATA[San Diego, CA 92101]]></address_three>
                       <general_info_one><![CDATA[For general information, questions, appointment requests, call us at:]]></general_info_one>
                       <phone_number_one><![CDATA[555-555-5555]]></phone_number_one>
-                      <general_info_two><![CDATA[For after-hour emergencies, call our on-call doctor at:]]></general_info_two>
+                      <general_info_two><![CDATA[For after-hour emergencies, contact our on-call doctor at:]]></general_info_two>
                       <phone_number_two><![CDATA[1-800-555-5555]]></phone_number_two>
                       <hours_title><![CDATA[Hours]]></hours_title>
                       <special_hours_info><![CDATA[Special Holiday Hours: We'll be closing at 3pm Christmas Eve and New Years Eve. We'll be closed on Thanksgiving, Christmas and New Years Day.]]></special_hours_info>
@@ -587,7 +587,7 @@
               <items>
                   <item link_title="Patient Resources" path_part="patient-resources">
                       <page_title><![CDATA[Patient Resources]]></page_title>
-                      <main_image><![CDATA[https://20c8f9aa0640fa57fb9f-797f92b87a3f6608f6aa93d5326d7650.ssl.cf2.rackcdn.com/patient-resources-hero.jpg]]></main_image>
+                      <main_image><![CDATA[https://20c8f9aa0640fa57fb9f-797f92b87a3f6608f6aa93d5326d7650.ssl.cf2.rackcdn.com/about-us-meet-the-team.jpeg]]></main_image>
                       <body_text><![CDATA[<p>We strive to provide our clients with the best service and care. For your convenience we have our most common forms available for you to download and fill out prior to your appointment. We've also included information on our payment options.</p><p>When you adopt a companion animal, whether from a shelter or a breeder, whether your new family member is a dog or cat, it will help develop good relationships if you learn some simple concepts. For example, if you introduce a puppy or kitten to your home, your new pet may not know yet about proper housetraining.</p><p>There are ways to teach your new family member where, when, and what to do that aren't punitive or threatening. Or you may own a pet that may have become ill and your veterinarian has prescribed medication. What's the best way to administer medication to an animal? If you want a happy dog or cat, it's important to provide your animal with a stimulating experience during the day, especially if they live primarily indoors. Because dogs and cats love to hunt, introducing a kong can help entertain them as well as manage their weight.</p>]]></body_text>
                   </item>
               </items>
@@ -607,7 +607,7 @@
             <items>
               <item link_title="Patient Forms" path_part="patient-forms" parent="patient-resources">
                   <page_title><![CDATA[Patient Forms]]></page_title>
-                  <main_image><![CDATA[https://20c8f9aa0640fa57fb9f-797f92b87a3f6608f6aa93d5326d7650.ssl.cf2.rackcdn.com/patient-resources-patient-forms.jpeg]]></main_image>
+                  <main_image><![CDATA[https://20c8f9aa0640fa57fb9f-797f92b87a3f6608f6aa93d5326d7650.ssl.cf2.rackcdn.com/paperwork.jpeg]]></main_image>
                   <body_text>
                     <![CDATA[Please find most of our patient forms below.]]>
                   </body_text>
@@ -705,7 +705,7 @@
               <items>
                 <item link_title="General Health" path_part="general-health" parent="services">
                   <page_title><![CDATA[General Health]]></page_title>
-                  <main_image><![CDATA[https://20c8f9aa0640fa57fb9f-797f92b87a3f6608f6aa93d5326d7650.ssl.cf2.rackcdn.com/services-general-health.jpg]]></main_image>
+                  <main_image><![CDATA[https://20c8f9aa0640fa57fb9f-797f92b87a3f6608f6aa93d5326d7650.ssl.cf2.rackcdn.com/resources-hero.jpeg]]></main_image>
                   <body_text><![CDATA[
                   <p>We offer general checkups 2 times a year. Keep your pet the healthiest that they can be with out biannual comprehensive exams. During your pet's checkup, you can opt for grooming services, which include bathing, haircut, nail trim, and more!</p>
                   <p>While NCVEC provides emergency and specialty care, your primary care veterinarian is your partner for wellness and preventative care. Here are some important tips on preventative care for your  pets.</p>
@@ -733,7 +733,7 @@
                 </item>
                 <item link_title="Vaccines" path_part="vaccines" parent="services">
                   <page_title><![CDATA[Vaccines]]></page_title>
-                  <main_image><![CDATA[https://20c8f9aa0640fa57fb9f-797f92b87a3f6608f6aa93d5326d7650.ssl.cf2.rackcdn.com/services-vaccines.jpg]]></main_image>
+                  <main_image><![CDATA[https://20c8f9aa0640fa57fb9f-797f92b87a3f6608f6aa93d5326d7650.ssl.cf2.rackcdn.com/about-us-meet-the-team.jpeg]]></main_image>
                   <body_text><![CDATA[<p>Pet vaccines fall into two categories: core and  non-core. Core vaccines are vaccines that are recommended for every pet. Non-core vaccines are vaccines that may be recommened based on your pet's lifestyle. For example, if your pet is boarded a lot, or spends a lot of time outdoors, you may want to consider additional vaccines for your pet.</p>
                   <p>Similar to human vaccines, animal vaccines are administered to prevent diseases from occurring in animals. Routinely vaccinating animals is often more affordable than paying for the treatment of sick animals, reduces transmission of microorganisms in the animal population, and reduces animal suffering. Pets are often given vaccines for infectious diseases such as rabies, parvovirus, distemper and hepatitis. Livestock animals, such as turkeys, chickens and cattle, are vaccinated to protect against diseases such as rotavirus, E. coli, pinkeye and brucellosis.</p>
                   <p>The proper application of vaccines to animal populations has enhanced their health and welfare, and prolonged their life expectancies. The goal of a vaccination program is to prevent or reduce disease, and thereby promote optimal patient, herd and public health. Even though some formerly common diseases have now become uncommon, vaccination is still highly recommended because these serious disease agents continue to thrive in certain environments.</p>
@@ -745,7 +745,7 @@
                 </item>
                 <item link_title="Care Packages" path_part="care-packages" parent="services">
                   <page_title><![CDATA[Care Packages]]></page_title>
-                  <main_image><![CDATA[https://20c8f9aa0640fa57fb9f-797f92b87a3f6608f6aa93d5326d7650.ssl.cf2.rackcdn.com/services-care-packages.jpg]]></main_image>
+                  <main_image><![CDATA[https://20c8f9aa0640fa57fb9f-797f92b87a3f6608f6aa93d5326d7650.ssl.cf2.rackcdn.com/about-us-hero.r14auBCtl.jpeg]]></main_image>
                   <body_text><![CDATA[<p>Our pets, just like humans, will have changing medical and health needs as they age. Our care packages will help you get the most comprehensive care for your pet from baby to senior.
                     Each package covers comprehensive exams, possible vaccines or medication, nutritional consulation, heartworm test and more.</p></br>
                     <h3>Baby</h3></br> <p>Our Baby Package includes:</br> <ul><li>Comprehensive physical exam</li><li>Recommended vaccines</li></ul></p></br>
@@ -755,7 +755,7 @@
                 </item>
                 <item link_title="Dental Care" path_part="dental-care" parent="services">
                   <page_title><![CDATA[Dental Care]]></page_title>
-                  <main_image><![CDATA[https://20c8f9aa0640fa57fb9f-797f92b87a3f6608f6aa93d5326d7650.ssl.cf2.rackcdn.com/services-dental-care.jpeg]]></main_image>
+                  <main_image><![CDATA[https://20c8f9aa0640fa57fb9f-797f92b87a3f6608f6aa93d5326d7650.ssl.cf2.rackcdn.com/dental.jpg]]></main_image>
                   <body_text><![CDATA[<p>Dental care is an integral part of your pets health. Poor dental health can lead to other health problems, including heart problems. To help your pet be the best health possible, we offer professional cleanings, and training and tips to help your pet get used to daily tooth brushing.</p>
 
                     <p>Veterinary dentistry includes the cleaning, adjustment, filing, extraction, or repair of your pets' teeth and all other aspects of oral health care. These procedures should be performed by a veterinarian or a board-certified veterinary dentist. Subject to state or provincial regulation, veterinary technicians are allowed to perform certain dental procedures under the supervision of a veterinarian. </p>
@@ -911,7 +911,7 @@
               <items>
                   <item link_title="Our Photos" path_part="our-photos" parent="about-us">
                       <page_title><![CDATA[Our Photos]]></page_title>
-                      <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/about-us-our-photos.jpeg]]></main_image>
+                      <main_image><![CDATA[https://20c8f9aa0640fa57fb9f-797f92b87a3f6608f6aa93d5326d7650.ssl.cf2.rackcdn.com/about-us-office-tour.jpeg]]></main_image>
                       <body_text>
                         <![CDATA[<h4>Meet our pets, clients, and patients!</h4>]]>
                       </body_text>
@@ -1117,7 +1117,7 @@
               <items>
                   <item link_title="Office Tour" path_part="office-tour" parent="about-us">
                       <page_title><![CDATA[Office Tour]]></page_title>
-                      <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/office-photo-main-image.jpeg]]></main_image>
+                      <main_image><![CDATA[https://20c8f9aa0640fa57fb9f-797f92b87a3f6608f6aa93d5326d7650.ssl.cf2.rackcdn.com/frog.jpeg]]></main_image>
                       <youtube_id><![CDATA[H2p1UZlgLjo]]></youtube_id>
                       <body_text>
                         <![CDATA[<p>Welcome! Come take a tour of our state-of-the-art clinic!</p>]]>

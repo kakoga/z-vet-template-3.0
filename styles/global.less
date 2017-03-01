@@ -26,11 +26,14 @@ body {
 	background-repeat:no-repeat;
 	//z-index: -100;
 	//margin-top: -127px;
+	@media(max-width: @sm) {
+		background-position:50% 50%;
+	}
 	&.no-image {
-		padding:10vh 0;
+		padding:22vh 0;
 		background-color:@gray;
 		@media (max-width: @sm) {
-			padding:8vh 0;
+			padding:10vh 0;
 		}
 	}
 
@@ -118,11 +121,17 @@ a:hover {text-decoration:none;}
 			margin:0;
 			padding:0;
 			list-style:none;
-			float: right;
+			float: left;
 			display: inline-block;
+			&:first-child {
+				margin-left: 50px;
+			}
 			a {
 				display:block;
 				padding:9px 20px;
+				margin: 10px 15px 0 0;
+				border-radius: 5px;
+				box-shadow: 0 -2px 2px darken(@theme-primary, 15%);
 				@media(max-width: @sm) {
 					padding: 5px 10px;
 				}
