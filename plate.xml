@@ -560,7 +560,7 @@
                 <item>
                   <promo_title><![CDATA[&#36;25 Off Your Visit!]]></promo_title>
                   <promo_description><![CDATA[Get &#36;25.00 off your first visit. New clients only]]></promo_description>
-                  <promo_image><![CDATA[<img src="https://20c8f9aa0640fa57fb9f-797f92b87a3f6608f6aa93d5326d7650.ssl.cf2.rackcdn.com/promotions-first-visit.87d35a3ecfc32c7741be2b1d18a40f65.jpeg">]]></promo_image>
+                  <promo_image><![CDATA[https://20c8f9aa0640fa57fb9f-797f92b87a3f6608f6aa93d5326d7650.ssl.cf2.rackcdn.com/promotions-first-visit.87d35a3ecfc32c7741be2b1d18a40f65.jpeg]]></promo_image>
                   <promo_code><![CDATA[FIRSTVISIT25]]></promo_code>
                   <promo_print_coupon><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/FREEFirstExamCoupon.pdf]]></promo_print_coupon>
                   <sort_order><![CDATA[1]]></sort_order>
@@ -568,7 +568,7 @@
                 <item>
                   <promo_title><![CDATA[2 for 1 Flea Treatments]]></promo_title>
                   <promo_description><![CDATA[Purchase one topical flea treatment and one of equal or lesser value for free.]]></promo_description>
-                  <promo_image><![CDATA[<img src="https://svc.zesty.io/media-resolver-service/resource/163465ec89b2a72940063ec7d93e5dc784305020">]]></promo_image>
+                  <promo_image><![CDATA[https://svc.zesty.io/media-resolver-service/resource/163465ec89b2a72940063ec7d93e5dc784305020]]></promo_image>
                   <promo_code><![CDATA[NOFLEAS]]></promo_code>
                   <promo_print_coupon><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/2016AppCoupon.PDF]]></promo_print_coupon>
                   <sort_order><![CDATA[2]]></sort_order>
