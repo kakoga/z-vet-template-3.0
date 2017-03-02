@@ -113,6 +113,9 @@
 	transition:all ease 250ms;
 	box-shadow:2px 0px 3px rgba(0,0,0,0.8);
 	//right: -51vh;
+	@media (max-width: @sm) {
+		background-color: rgba(0,0,0,0.8);
+	}
 	&.open {
 		right: 0;
 	}
@@ -353,6 +356,9 @@
 		@media(max-width:@sm) {
 			margin-bottom: 25px;
 			border-bottom: 1px solid white;
+			&:last-child {
+				border-bottom: none;
+			}
 		}
 		ul li {
 			list-style: none;
