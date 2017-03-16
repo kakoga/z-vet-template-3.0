@@ -5,7 +5,7 @@ body {
 }
 #img-overlay {
 	position: absolute;
-	background-color: @theme-gray-color;
+	background-color: rgba(0,0,0,0.5);
 	opacity: 0.5;
 	top: 0;
 	left: 0;
@@ -21,16 +21,16 @@ body {
 	background-size:cover;
 	background-attachment:fixed;
 	background-position:50% 50%;
-	padding:22vh 0;
+	padding:40vh 0;
 	background-color:@body-bg;
 	background-repeat:no-repeat;
 	//z-index: -100;
 	//margin-top: -127px;
 	@media(max-width: @sm) {
-		background-position:50% 50%;
+		padding:40vh 0;
 	}
 	&.no-image {
-		padding:22vh 0;
+		padding:25vh 0;
 		background-color:@gray;
 		@media (max-width: @sm) {
 			padding:10vh 0;
@@ -68,7 +68,7 @@ body {
 	height:101%;
 	width:100%;
 	&.bg-overlay {
-		background:fade(@theme-gray-color,35%);
+		background:rgba(0,0,0,0.4);
 	}
 	.cc {
 		display:table-cell;

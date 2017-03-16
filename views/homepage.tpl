@@ -145,7 +145,7 @@
 				<ul class="timeline">
 					{{each home_page_about_timeline as timeline}}
 
-					<div class="">
+					<div class="timeline-item-wrap">
 						(**{{if {index} % 2 = 0}}**)
 						<div class="row">
 							<div class="col-sm-12">
@@ -228,4 +228,25 @@
 		</div>
 	</div>
 </section>
+<script>
+
+		$(window).scroll( function(){
+			/* Check the location of each desired element */
+				var $this = $('.timeline-item-wrap').last().find('.timeline-image');
+				var top_of_object = $this.offset().top;
+				var top_of_window = $(window).scrollTop();
+
+				/* If the object is completely visible in the window, fade it in */
+				if( top_of_object <= top_of_window  ){
+
+					$this.addClass('unfix');
+
+				} else {
+					$this.removeClass('unfix');
+				}
+
+
+
+		});
+</script>
 {{ end-if }}

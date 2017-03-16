@@ -130,7 +130,7 @@ img {
 }
 
 .bg-light-gray {
-	background-color: @gray;
+	background-color: @gray-dark;
 }
 
 .bg-darkest-gray {
@@ -165,18 +165,27 @@ img {
 			display: none;
 		}
 	}
-	.appt-phone-align {
-		float: right;
-		margin-right: 75px;
+	.tel-align {
+		margin-top: 12px;
+		h3#tel {
+			display: inline;
+			position: relative;
+			top: 3px;
+			font-size: 28px;
+		}
+		.btn {
+			position: relative;
+			bottom: 2.5px;
+		}
+	}
+
+	/**.appt-phone-align {
 		@media (max-width: @sm) {
 			float: none;
 			text-align: center;
 			margin-right: 0;
 		}
-		.fa {
-			color: darken(@gray-lighter, 20%);
-		}
-	}
+	}**/
 	navbar-brand.site-name {
 		float: left;
 		padding: 15px;
@@ -186,10 +195,10 @@ img {
 		}
 	}
 	#request {
-		background: darken(@gray-lighter, 25%);
+		background: @btn-default-bg;
 		margin: 0;
 		&:hover {
-			background: darken(@gray-lighter, 10%);
+			background: darken(@btn-default-bg, 15%);
 		}
 		@media (max-width: @sm) {
 			position:fixed;
@@ -207,28 +216,6 @@ img {
 		@media (max-width: @sm) {
 			display:none;
 
-		}
-	}
-	.number {
-		display: inline-block;
-		margin-left: 5px;
-		h6 {
-			color: darken(@gray-lighter, 25%);
-			margin:4px 0;
-
-			@media (max-width: 768px) {
-				display:none;
-
-			}
-		}
-		h3 {
-			margin:2px 0;
-			@media (max-width: @sm) {
-				font-size: 18.6px;
-			}
-			a {
-				color:darken(@gray-lighter, 25%);
-			}
 		}
 	}
 	@media(max-width: @sm) {
@@ -431,6 +418,7 @@ header {
 		z-index: 90;
 		padding-top: 50px;
 		@media(max-width: @sm) {
+			padding-top: 70px;
 				.btn.btn-xl {
 					font-size: 14px;
 					padding: 8px 17px;
@@ -657,27 +645,21 @@ section.portfolio {
 
 	}
 	h2 {
+		color: @paragraph-font-color;
 		@media (max-width: @sm) {
 				margin: 36px 0 0 0;
 			}
 	}
 	h3 {
+		color: @paragraph-font-color;
 		@media (max-width: @sm) {
 			margin-bottom: 0px;
 		}
 	}
 	h4 {
+		color: @paragraph-font-color;
 		/* offset-x | offset-y | blur-radius | color */
 		text-shadow:1px 1px 1px rgba(0,0,0,0.5);
-	}
-	.timeline-image {
-		position: relative;
-		background-attachment: fixed;
-		background-position: right;
-		background-size: auto 50vh;
-		background-repeat: no-repeat;
-		height: 100vh;
-		background-color: @gray-lightest;
 	}
 	.timeline-panel {
 		@media (max-width: @sm ) {
@@ -691,6 +673,7 @@ section.portfolio {
 			text-shadow:1px 1px 1px rgba(0,0,0,0.5);
 		}
 		.text-muted {
+			color: @paragraph-font-color;
 			padding-bottom: 85px;
 			@media(max-width: @sm) {
 				padding-bottom: 25px;
@@ -702,6 +685,20 @@ section.portfolio {
 			margin-bottom: 0px;
 		}
 
+	}
+	.timeline-item-wrap {
+	.timeline-image {
+		position: relative;
+		background-attachment: fixed;
+		background-position: right;
+		background-size: auto 50vh;
+		background-repeat: no-repeat;
+		height: 100vh;
+		background-color: @gray-lightest;
+			&.unfix {
+				background-attachment:initial;
+			}
+	}
 	}
 }
 

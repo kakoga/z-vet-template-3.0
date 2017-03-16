@@ -44,7 +44,7 @@
                 <sort>1</sort>
                 <edit_in_content>1</edit_in_content>
                 <locked>0</locked>
-                <value>#404040</value>
+                <value>#a98e1a</value>
             </color>
             <text name="nav-font-size" name_friendly="Navigation Font Size">
                 <category>4</category>
@@ -60,7 +60,7 @@
                 <sort>1</sort>
                 <edit_in_content>1</edit_in_content>
                 <locked>0</locked>
-                <value>#6b6a6a</value>
+                <value>#ad2d65</value>
             </color>
             <color name="link-hover-color" name_friendly="Link Hover Color">
                 <category>3</category>
@@ -68,7 +68,7 @@
                 <sort>1</sort>
                 <edit_in_content>1</edit_in_content>
                 <locked>0</locked>
-                <value>#404040</value>
+                <value>#8f164b</value>
             </color>
             <dropdown name="link-hover-decoration" name_friendly="Link Hover Decoration">
                 <category>3</category>
@@ -197,7 +197,7 @@
                 <sort>1</sort>
                 <edit_in_content>1</edit_in_content>
                 <locked>0</locked>
-                <value>#333333</value>
+                <value>#ad2d65</value>
             </color>
             <color name="btn-hover-font-color" name_friendly="Button Hover Font Color">
                 <category>6</category>
@@ -213,7 +213,7 @@
                 <sort>20</sort>
                 <edit_in_content>1</edit_in_content>
                 <locked>0</locked>
-                <value>#292929</value>
+                <value>#8f164b</value>
             </color>
 
             <color name="brand-primary" name_friendly="Brand Color">
@@ -222,7 +222,7 @@
                 <sort>3</sort>
                 <edit_in_content>1</edit_in_content>
                 <locked>0</locked>
-                <value>#9d9e9d</value>
+                <value>#ad2d65</value>
                 <options>
                     <option description="No transition" value="0ms" />
                     <option description="50ms" value="50ms" />
@@ -321,7 +321,7 @@
                 <sort>3</sort>
                 <edit_in_content>1</edit_in_content>
                 <locked>0</locked>
-                <value>#9d9c9c</value>
+                <value>#22757d</value>
             </color>
 
             <text name="nav-at-font-color" name_friendly=" ">
