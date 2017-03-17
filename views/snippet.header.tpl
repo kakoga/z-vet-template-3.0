@@ -21,13 +21,12 @@
 			</div>
 			<div class="col-xs-12 col-sm-9 col-md-8">
 				<div class="row">
-					<div class="col-sm-5"></div>
-					<div class="col-sm-7">
+
+					<div class="col-sm-12">
 						<!-- Appt request button and phone go here-->
-						<div class="tel-align">
-							<h3 id="tel"><i class="fa fa-phone-square" aria-hidden="true"></i><a href="{{ clippings.phone }}" > {{ clippings.phone }}</a></h3>
-							<i class="fa fa-calendar fa-lg" aria-hidden="true"></i>
-							<a class="btn btn-primary" id="request" href="https://dashboard.petdesk.com/WebApptRequest/?referralCode={{ clippings.petdesk_ref_code }}" target="_blank" >Request Appointment</a>
+						<div class="tel-align pull-right">
+							<a class="btn btn-primary" style="font-size: {{ clippings.telephone_number_height }}px;" id="tel" href="{{ clippings.phone }}" target="_blank" ><i class="fa fa-phone-square" aria-hidden="true"></i>  {{ clippings.phone }}</a>
+							<a class="btn btn-primary" style="font-size: {{ clippings.request_button_font_size }}px;" id="request" href="https://dashboard.petdesk.com/WebApptRequest/?referralCode={{ clippings.petdesk_ref_code }}" target="_blank" ><i class="fa fa-calendar fa-lg" aria-hidden="true"></i>  Request Appointment</a>
 						</div>
 						<div id="menu-toggle" class="">
 							<span></span>

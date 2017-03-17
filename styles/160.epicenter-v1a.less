@@ -166,12 +166,24 @@ img {
 		}
 	}
 	.tel-align {
-		margin-top: 12px;
-		h3#tel {
+		margin-top: 15px;
+		margin-right: 30px;
+		@media(max-width: 1400px) {
+			margin-right: 10%;
+		}
+		@media(max-width: @sm) {
+			float: none !important;
+		}
+		#tel {
 			display: inline;
 			position: relative;
-			top: 3px;
-			font-size: 28px;
+			font-size: 14px;
+			@media(max-width: @sm){
+				display: block;
+				font-size: 18px !important;
+				float: left !important;
+				margin: 15px auto;
+			}
 		}
 		.btn {
 			position: relative;
@@ -207,7 +219,7 @@ img {
 			width:100%;
 			margin:0;
 			padding:20px 0;
-			font-size:20px;
+			font-size:20px !important;
 			transition:all ease 250ms;
 		}
 
@@ -232,6 +244,9 @@ img {
 	border-color: transparent;
 	.navbar-brand {
 		color: @theme-primary;
+		@media(max-width: @sm) {
+			padding-left: 0;
+		}
 		.heading-font;
 		&:hover,
 			&:focus,
