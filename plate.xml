@@ -1137,9 +1137,6 @@
                   <wysiwyg_advanced name="photo_description" name_friendly="Photo Description" list="1" />
                   <sort name="sort_order" name_friendly="Sort Order" list="1" />
               </fields>
-              <items>
-                
-              </items>
           </dataset>
           <!-- ABOUT US END -->
         </ingredients>
