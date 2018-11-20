@@ -1143,21 +1143,21 @@
                   <photo_category><![CDATA[]]></photo_category>
                   <office_photo><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/office-photo-front-office.jpg]]></office_photo>
                   <photo_description><![CDATA[]]></photo_description>
-                  <sort_order><![CDATA[]]></sort_order>
+                  <sort_order><![CDATA[1]]></sort_order>
                 </item>
                 <item>
                   <photo_title><![CDATA[]]></photo_title>
                   <photo_category><![CDATA[]]></photo_category>
                   <office_photo><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/office-photos-backoffice.jpg]]></office_photo>
                   <photo_description><![CDATA[]]></photo_description>
-                  <sort_order><![CDATA[]]></sort_order>
+                  <sort_order><![CDATA[2]]></sort_order>
                 </item>
                 <item>
                   <photo_title><![CDATA[]]></photo_title>
                   <photo_category><![CDATA[]]></photo_category>
                   <office_photo><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/office-photo-exam-room.JPG]]></office_photo>
                   <photo_description><![CDATA[]]></photo_description>
-                  <sort_order><![CDATA[]]></sort_order>
+                  <sort_order><![CDATA[3]]></sort_order>
                 </item>
               </items>
           </dataset>
