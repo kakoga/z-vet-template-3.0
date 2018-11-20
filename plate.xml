@@ -1137,6 +1137,29 @@
                   <wysiwyg_advanced name="photo_description" name_friendly="Photo Description" list="1" />
                   <sort name="sort_order" name_friendly="Sort Order" list="1" />
               </fields>
+              <items>
+                <item>
+                  <photo_title><![CDATA[Waiting Area]]></photo_title>
+                  <photo_category><![CDATA[front]]></photo_category>
+                  <office_photo><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/office-photo-front-office.jpg]]></office_photo>
+                  <photo_description><![CDATA[<p>Reception Desk</p>]]></photo_description>
+                  <sort_order><![CDATA[1]]></sort_order>
+                </item>
+                <item>
+                  <photo_title><![CDATA[Back Office]]></photo_title>
+                  <photo_category><![CDATA[Surgery on one of our patients]]></photo_category>
+                  <office_photo><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/office-photos-backoffice.jpg]]></office_photo>
+                  <photo_description><![CDATA[<p>State-of-the-art operating room.</p>]]></photo_description>
+                  <sort_order><![CDATA[2]]></sort_order>
+                </item>
+                <item>
+                  <photo_title><![CDATA[Exam Room]]></photo_title>
+                  <photo_category><![CDATA[exam]]></photo_category>
+                  <office_photo><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/office-photo-exam-room.JPG]]></office_photo>
+                  <photo_description><![CDATA[<p>Cozy exam rooms.</p>]]></photo_description>
+                  <sort_order><![CDATA[3]]></sort_order>
+                </item>
+              </items>
           </dataset>
           <!-- ABOUT US END -->
         </ingredients>
